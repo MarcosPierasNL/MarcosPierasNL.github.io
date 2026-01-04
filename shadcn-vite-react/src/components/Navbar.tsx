@@ -10,9 +10,10 @@ export default function Navbar({ onAboutClick, onHomeClick }: NavbarProps) {
         <div />
         <button
           onClick={onHomeClick}
-          className="justify-self-center text-lg font-semibold hover:opacity-80"
+          className="justify-self-center text-lg font-semibold hover:opacity-80 inline-flex items-center gap-2"
           aria-label="Go to Home"
         >
+          <img src="/favicon.svg" alt="Logo" className="h-6 w-6" />
           Marcos Pieras
         </button>
         <div className="justify-self-end">
